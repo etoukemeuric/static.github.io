@@ -1,3 +1,194 @@
-h1 {
-  color: red;
+body {
+  margin: 0%;
+  padding: 0%;
+background: #D5E9F1;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #D5E9F1, #D5E9F1);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #D5E9F1, #D5E9F1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+
+font-family:'Josefin Slab', serif;;
+text-align: center;
 }
+
+.navbar {
+  background: white;
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.navbarfond {
+  display: flex;
+  width: 100%;
+  height: 180px;
+  background: white;
+}
+
+.links {
+  color: black;
+  font-size: 23px;
+  font-family:'Josefin Slab', serif;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.link {
+  color: black;
+
+  }
+
+.logo {
+  width: 275px;
+  height: 180px;
+position: relative;
+top: 20px;
+}
+
+
+.desk {
+  background: white;
+  height: 230px;
+  width: 100%;
+  display: flex;
+  align-items: : center;
+  justify-content: space-around;
+}
+
+.deskphoto {
+  width: 190px;
+  height: 200px;
+}
+
+.desktitle {
+  color: black;
+  font-size: 40px;
+  font-family:'Josefin Slab', serif;
+}
+
+.deskp {
+  font-size: 23px;
+}
+
+h1 {
+  color:#BDBA3F;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  font-size: 21px;
+  font-family:'Josefin Slab', serif;
+}
+
+ul {
+  font-size: 24px;
+  text-align: left;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+.btn {
+  font-family:'Josefin Slab', serif;
+  font-size: 24px;
+  color:black;
+  background:white;
+}
+
+.btn:hover {
+  background: #BDBA3F;
+}
+
+.cadre {
+  background: white;
+  border: 5px white;
+  margin: 150px;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+.avatar {
+ width: 280px;
+ height: 280px;
+ object-fit: cover;
+ border-radius: 50%;
+ box-shadow: 5px 10px 10px white;
+ margin: 20px
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+.carte {
+  width:100%;
+}
+
+
+
+  <style>
+  body {
+  padding-top: 50px;
+  background-color:#FFFFF; 
+  }
+  </style>
+
+<!-- Footer -->
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+
+
+
+
+
+
